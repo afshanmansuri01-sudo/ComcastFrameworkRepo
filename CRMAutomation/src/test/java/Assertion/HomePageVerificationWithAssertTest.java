@@ -47,6 +47,7 @@ public class HomePageVerificationWithAssertTest {
 			driver.close();
 			
 			System.out.println(mtd.getName()+ "Test End");
+			System.out.println("my assert program updated");
 		
 
 	}
