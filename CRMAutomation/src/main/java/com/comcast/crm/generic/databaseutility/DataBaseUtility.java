@@ -43,7 +43,10 @@ public class DataBaseUtility {
 	 ResultSet result =null ;
 	 try {
 		 Statement stat = con.createStatement();
-		 result =stat.executeQuery(query);}
+		 result =stat.executeQuery(query);
+		 
+	  
+	 }
      catch (Exception e) {
 		 
 		}
