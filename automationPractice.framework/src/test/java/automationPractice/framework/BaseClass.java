@@ -86,7 +86,9 @@ public class BaseClass {
 		}
 		
 		@AfterSuite
-		public void configAS() {
+		public void configAS()
+		
+		{
 			System.out.println("====disconnected from DataBase");
 			//dblib.closeConnection();
 		}
